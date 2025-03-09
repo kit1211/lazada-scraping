@@ -1,0 +1,23 @@
+{
+  "name": "product_scraping",
+  "module": "src/app.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run --watch src/app.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.4.1",
+    "axios": "^1.8.2",
+    "cheerio": "^1.0.0",
+    "prisma": "^6.4.1",
+    "puppeteer": "^24.4.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}
